@@ -2,10 +2,10 @@ package hello.core.order;
 
 public class Order {
 
-    Long memberId;
-    String itemName;
-    int itemPrice;
-    int discountPrice;
+    private Long memberId;
+    private String itemName;
+    private int itemPrice;
+    private int discountPrice;
 
     public Order(Long memberId, String itemName, int itemPrice, int discountPrice) {
         this.memberId = memberId;
